@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./assets/Pokeball.png" />
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="./css/index.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <script type="module" src="./js/pokemons.js"></script>
+  </head>
+  <body class="pokemons-list">
+      <header class="home-header">
+        <div class="home-header__title">
+          <img
+            class="home-header__image"
+            src="./assets/Pokeball.png"
+            alt="Pokeball"
+          />
+          <h1 class="home-header__text">Pokédex</h1>
+        </div>
+        <div class="searchbar">
+          <label for="search">
+            <input
+              class="searchbar__input"
+              type="text"
+              name=""
+              id=""
+              placeholder="&#xF002; Search"
+            />
+          </label>
+          <button class="sort-by">#</button>
+        </div>
+      </header>
+      <main id="pokemon-list" class="container"></main>
+  </body>
+</html>
